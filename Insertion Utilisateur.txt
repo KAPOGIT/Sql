@@ -1,0 +1,5 @@
+Insertion des utilisateurs dans une base
+
+Insert Utilisateur
+select * from VASITHA_AUDIT..Utilisateur
+Where (Nom_Utilisateur LIKE 'YEO%') OR Nom_Utilisateur LIKE 'ALLO%'

@@ -1,0 +1,8 @@
+BLOCAGE DES COMPTES DE CERTAINS UTILISATEURS
+
+/*
+select * from 
+Update Utilisateur Set Etat_Connexion='2'
+Where Group_ID=16402 and 
+Code_Utilisateur NOT IN ('003','Z42','017','004','Z34')
+*/
